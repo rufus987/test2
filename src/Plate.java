@@ -3,7 +3,6 @@ public class Plate {
     public Plate (int food){
         this.food = food;
     }
-    Cat cat;
     public void decreaseFood(int n) {
         if (food >= n) {
             food -= n;
