@@ -8,7 +8,8 @@ public class Cat {
         this.satiety = satiety;
     }
     public void eat(Plate p){
-        p.decreaseFood(appetite, satiety);
+        p.decreaseFood(appetite);
+        satiety = true;
     }
     public void isSatiety(){
         System.out.println("Satiety " + satiety);
