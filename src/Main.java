@@ -6,5 +6,8 @@ public class Main {
         cat.eat(plate);
         plate.info();
         cat.isSatiety();
+        cat.eat(plate);
+        plate.info();
+        cat.isSatiety();
     }
 }
